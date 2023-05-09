@@ -28,19 +28,30 @@
                 </a>
             </div>
             <nav class="inline-block">
-                <ul>
+                <ul class="navbar">
                     <li class="inline-block"><button onclick=window.location.href='about.html'>About me</button></li>
                     <li class="inline-block"><button onclick=window.location.href='uxprojects.html'>UX projects</button></li>
                     <li class="inline-block"><button onclick=window.location.href='multimedia.html'>Multimedia</button></li>
-                    <li class="inline-block"><button onclick=window.location.href='resume.html'>Resume</button></li>
+                    <!--<li class="inline-block"><button onclick=window.location.href='resume.html'>Resume</button></li>-->
                 </ul>
-
+            </nav>
+            <nav class="mMenu">
+                <div class="toggle">
+                    <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 14.25H35C35.5523 14.25 36 13.8023 36 13.25V10.75C36 10.1977 35.5523 9.75 35 9.75H9C8.44769 9.75 8 10.1977 8 10.75V13.25C8 13.8023 8.44769 14.25 9 14.25ZM9 24.25H35C35.5523 24.25 36 23.8023 36 23.25V20.75C36 20.1977 35.5523 19.75 35 19.75H9C8.44769 19.75 8 20.1977 8 20.75V23.25C8 23.8023 8.44769 24.25 9 24.25ZM9 34.25H35C35.5523 34.25 36 33.8023 36 33.25V30.75C36 30.1977 35.5523 29.75 35 29.75H9C8.44769 29.75 8 30.1977 8 30.75V33.25C8 33.8023 8.44769 34.25 9 34.25Z"/>
+                    </svg>
+                </div>
+                
             </nav>
         </header>
-
+        <ul class="dropDown">
+            <li><button onclick=window.location.href='about.html'>About me</button></li>
+            <li><button onclick=window.location.href='uxprojects.html'>UX projects</button></li>
+            <li><button onclick=window.location.href='multimedia.html'>Multimedia</button></li>
+        </ul>
         <section class="content">
             <div class="heroImg">
-                <img src="images/hero_img.jpg" width="100%" alt="The city of Larnaca"/>
+                <!--<img src="images/hero_img.jpg" width="100%" alt="The city of Larnaca"/> -->
             </div>
             <div class="overlap"><img class="title" src="images/uxdesigner.svg" alt="UX Designer"/></div>
                 <div class="mainflex">
@@ -86,5 +97,8 @@
             <div class="copyright"><p style="color: #F5F3ED; font-size: 14px;">© 2023 Copyright. All Rights Reserved.</p></div>            
         </footer>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+
     </body>
 </html>
