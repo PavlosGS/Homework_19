@@ -25,7 +25,7 @@
                 <ul class="navbar">
                     <li class="inline-block"><button onclick=window.location.href='about.html'>About me</button></li>
                     <li class="inline-block"><button class="active" onclick=window.location.href='uxprojects.html'>UX projects</button></li>
-                    <li class="inline-block"><button onclick=window.location.href='multimedia.html'>Multimedia</button></li>
+                    <li class="inline-block"><button onclick=window.location.href='#'>Multimedia</button></li>
                     <!--<li class="inline-block"><button onclick=window.location.href='resume.html'>Resume</button></li>-->
                 </ul>
 
@@ -41,9 +41,9 @@
             </nav>
         </header>
             <ul class="dropDown">
-                <li><button onclick=window.location.href='about.html'>About me</button></li>
-                <li><button onclick=window.location.href='uxprojects.html'>UX projects</button></li>
-                <li><button onclick=window.location.href='multimedia.html'>Multimedia</button></li>
+                <li><button class="button_mMenu" onclick=window.location.href='about.html'>About me</button></li>
+                <li><button class="button_mMenu" onclick=window.location.href='uxprojects.html'>UX projects</button></li>
+                <li><button class="button_mMenu" onclick=window.location.href='#'>Multimedia</button></li>
             </ul>
 
         <section class="content">
@@ -54,12 +54,12 @@
             
             <!-- My Work Section Constructed using CSS Grid -->
    
-            <div style="margin: 0 auto 0 auto; position: relative; top:-24px;"><h2>My Work</h2></div>
+            <div class="titles"><h2>My Work</h2></div>
                     <div class="grid_container">
                     
                     <div class="item">
                         <div><img src="images/m8screens.png" width="60%"/></div>
-                        <div><h3>Museum 8</h3></div>
+                        <div><h3 class="purple left">Museum 8</h3></div>
                         <div style="text-align:justify; padding: 0 10px 0 10px;"><p>A virtual reality platform specializing in immersive experiences for museums around the world 
                             is necessary to provide educators, parents, and disabled 
                             persons with an alternative option to museum-going.</p>
@@ -68,7 +68,7 @@
                     
                     <div class="item">
                         <div><img src="images/travelpal.png" width="60%"/></div>
-                            <div><h3 style="color: #1060c0;">travelPal</h3></div>
+                            <div><h3 class="purple left">Travel Pal</h3></div>
                             <div style="text-align:justify; padding: 0 10px 0 10px;"><p>TravelPal is a mobile app that provides 
                                 travelers an organized way of planning activities and maximizing their time experiencing all 
                                 aspects of the destination based on their interests while having fun.</p>
@@ -77,11 +77,8 @@
                     
                     <div class="item">
                         <div><img src="images/amis.png" width="65%"/></div>
-                            <div><h3 style="color: #1060c0;">AMIS Atlanta</h3></div>
-                            <div style="text-align:justify; padding: 0 10px 0 10px;"><p>Group project - The goal was to redesign the AMIS Atlanta website, making it more inviting for the 
-                                modern international student. <br><br>
-                                Atlanta Ministry with International Students (AMIS Atlanta) is a non-profit organization that promotes cultural and global understanding through friendship
-                                and hospitality with international students and scholars in the greater Atlanta area. 
+                            <div><h3 class="purple left">AMIS Atlanta</h3></div>
+                            <div style="text-align:justify; padding: 0 10px 0 10px;"><p>Group project - The goal was to redesign the website for AMIS Atlanta, a non-profit, making it more inviting for the modern international student.
                                 </p>
                             </div>     
                     </div>
